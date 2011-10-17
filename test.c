@@ -2,6 +2,6 @@
 
 int main(){
 	
-	dprintf("This is a test that works.\n"
+	printf("This is a test that works.\n");
 	return 0;
 }
