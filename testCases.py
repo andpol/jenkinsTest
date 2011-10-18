@@ -15,6 +15,9 @@ class TestSequence(unittest.TestCase):
 
 	def test_add_negatives(self):
 		self.assertEqual(mylib.add(-1,3), 2)
+	
+	def test_mult_simple(self):
+		self.assertEqual(mylib.mult(8,3), 24)
 
 if __name__=="__main__":
 	unittest.main()
