@@ -17,7 +17,7 @@ class TestSequence(unittest.TestCase):
 		self.assertEqual(mylib.add(-1,3), 2)
 	
 	def test_mult_simple(self):
-		self.assertEqual(mylib.mult(8,3), 24)
+		self.assertEqual(mylib.mult(8,3), 25)
 
 if __name__=="__main__":
 	unittest.main()
